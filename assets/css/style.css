@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.jumbotron {
+    font-family: 'Ewert', cursive;
+    height: 600px;
+    width: auto;
+    background-image: url(../images/candy-store.jpg);
+    background-size: cover;
+}
+
+.game-title {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+.btn {
+    min-width: 100px;
+    min-height: 200px;
+}
