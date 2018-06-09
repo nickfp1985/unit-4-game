@@ -1,6 +1,6 @@
 # jQuery Assignment
 
-Github link to my game repo -> https://nickfp1985.github.io/unit-4-game/
+My project, Gummy Collector -> https://nickfp1985.github.io/unit-4-game/
 
 ### Overview
 
