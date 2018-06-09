@@ -1,23 +1,54 @@
-body {
+.body {
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+}
+
+.container {
     background-color: black;
+    background-image: url("../images/gummybears.jpg");
 }
 
 .jumbotron {
-    font-family: 'Ewert', cursive;
-    height: 600px;
-    width: auto;
-    background-image: url(../images/candy-store.jpg);
-    background-size: cover;
-}
-
-.game-title {
     background-color: rgba(0,0,0,0.5);
-    color: white;
 }
 
-.btn {
-    min-width: 100px;
-    min-height: 200px;
+.my-4,
+.lead {
+	color: #31C1CF;
+    font-size: 250%;
+    text-shadow: 5px 5px #000;
+}
+
+.card {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.display-4 {
+    font-family: 'Ewert', cursive;
+	color: #31C1CF;
+    font-size: 600%;
+    text-shadow: 5px 5px #000;
+}
+
+.card-title {
+    color: #0bff01;
+    text-shadow: 5px 5px #000;
+}
+
+.card-subtitle {
+	color: #31C1CF;
+    font-size: 250%;
+    text-shadow: 5px 5px #000;
+}
+
+.btn-gummies {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.score {
+	text-align: center;
+	font-size: 150%;
+	color: whitesmoke;
+	font-family: Raleway, arial, sans-serif;
 }
